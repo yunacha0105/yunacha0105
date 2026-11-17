@@ -1,17 +1,22 @@
-# Yuna Cha
-**Nuclear Engineering · Materials · AI**
+![Yuna Cha — Nuclear Engineering · Materials · AI](assets/header.png)
+
+## 👋 About Me
 
 원자력공학을 전공하고 재료 분석 실험과 분자동역학 시뮬레이션을 수행했습니다.
 Python 기반 이미지 검사, AI 추론 API, 영상의 동작 특징 추출 프로젝트를 진행했습니다.
 재료와 설비의 상태를 분석하는 데 전공 지식과 AI 기술을 함께 활용하고자 합니다.
 
-## Projects
+## 🗂️ Projects
 
 카드를 누르면 관련 저장소로 이동합니다. 아래 프로젝트는 교육 과정에서 수행한 작업입니다.
 
 [![조각김치 이물검출 — 데이터 구축 및 검수 도구 개발](assets/kimchi.png)](https://github.com/Jihoo2/G5_kimchi)
 
-### 조각김치 이물검출을 위한 데이터 구축 및 검수 도구 개발
+
+<details>
+<summary>📋 역할과 작업 내용 자세히 보기</summary>
+
+### 🥬 조각김치 이물검출을 위한 데이터 구축 및 검수 도구 개발
 
 5인 팀으로 조각김치 이물검출용 이미지 900장의 라벨링 작업을 진행했습니다. 이미지 라벨링과 교차검수로 학습 데이터 구축에 기여하고, Claude를 활용해 BBox 데이터 관리·파일 입출력 기능을 개발했습니다. 팀의 모델 학습 결과를 분석하고 발표자료로 정리했습니다.
 
@@ -25,11 +30,17 @@ Python 기반 이미지 검사, AI 추론 API, 영상의 동작 특징 추출 �
 
 [팀 저장소](https://github.com/Jihoo2/G5_kimchi)
 
+</details>
+
 ---
 
 [![이미지 검사와 결함 분석](assets/vision.png)](https://github.com/yunacha0105/ai_vision)
 
-### 머신비전 기반 제품 검사 및 결함 분석
+
+<details>
+<summary>📋 역할과 작업 내용 자세히 보기</summary>
+
+### 🔍 머신비전 기반 제품 검사 및 결함 분석
 
 OpenCV 기반 제품 검사 기능을 구현하고, 전처리·로고 매칭·OCR·ResNet18 기반 이상 탐지 방법을 비교했습니다. 검사 영역 설정부터 판정 기준 수립, 오류 분석까지 단계별 실험 결과를 정리했습니다.
 
@@ -41,11 +52,17 @@ OpenCV 기반 제품 검사 기능을 구현하고, 전처리·로고 매칭·OC
 
 [코드와 실험 기록](https://github.com/yunacha0105/ai_vision)
 
+</details>
+
 ---
 
 [![이미지 분류 API](assets/api.png)](https://github.com/yunacha0105/fastapi_resnet18)
 
-### ResNet18 기반 이미지 분류 API 구현
+
+<details>
+<summary>📋 역할과 작업 내용 자세히 보기</summary>
+
+### ⚙️ ResNet18 기반 이미지 분류 API 구현
 
 ResNet18 이미지 분류 모델을 FastAPI에 연결해 웹·API 기반 추론 기능을 구현했습니다. 동기 요청과 Redis·Celery를 사용하는 비동기 작업 처리를 구성하고, Docker 기반 실행 환경을 마련했습니다.
 
@@ -54,11 +71,17 @@ ResNet18 이미지 분류 모델을 FastAPI에 연결해 웹·API 기반 추론 
 
 [프로젝트 저장소](https://github.com/yunacha0105/fastapi_resnet18)
 
+</details>
+
 ---
 
 [![영상에서 동작 특징 추출 — 38개 특징](assets/pose.png)](https://github.com/yunacha0105/subject10)
 
-### YOLO Pose 기반 동작 특징 추출 및 품질 분석 · 진행 중
+
+<details>
+<summary>📋 역할과 작업 내용 자세히 보기</summary>
+
+### 🏃 YOLO Pose 기반 동작 특징 추출 및 품질 분석 · 진행 중
 
 YOLO Pose의 COCO 17개 관절 정보를 활용해 영상의 프레임별 동작 특징 추출 과정을 구현했습니다. 골반 중심·어깨 폭을 기준으로 좌표를 정규화하고, 좌표 34개와 팔꿈치·무릎 각도 4개를 결합해 38차원 특징을 생성했습니다.
 
@@ -66,7 +89,9 @@ YOLO Pose의 COCO 17개 관절 정보를 활용해 영상의 프레임별 동작
 
 [코드와 분석 기록](https://github.com/yunacha0105/subject10)
 
-## Tools & Background
+</details>
+
+## 🛠️ Tools & Background
 
 | 분야 | 사용 경험 |
 |---|---|
