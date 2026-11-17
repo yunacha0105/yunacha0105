@@ -1,4 +1,4 @@
-![Yuna Cha — Nuclear Engineering · Materials · AI](assets/header.png)
+![Yuna Cha — Nuclear Engineering · Materials · AI](assets/header-clean.png)
 
 ## 👋 About Me
 
